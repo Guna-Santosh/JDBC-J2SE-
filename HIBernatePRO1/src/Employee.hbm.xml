@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hibernate-mapping>
+
+<class name="test.Employee" table="emphb">
+
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+
+<property name="fname"></property>
+<property name="lname"></property>
+</class>
+
+
+</hibernate-mapping>
+
+
+
+
+
+
